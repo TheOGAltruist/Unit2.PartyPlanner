@@ -1,0 +1,26 @@
+.partyForm {
+    display: inline-block;
+}
+
+.partyForm p {
+    /* display: table-row; */
+}
+
+.partyForm>p>label {
+    /* display: table-cell; */
+}
+
+.partyForm>p>input {
+    /* display: table-cell; */
+}
+
+.partyList {
+    list-style: none;
+}
+
+.partyList>li>p {
+    border-bottom: 1px dotted grey;
+    padding-bottom: 5px;
+    margin-top: 2px;
+    display: inline-block;
+}

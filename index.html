@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Party Planner</title>
+    <link rel="stylesheet" href="index.css">
+    <script defer src="index.js"></script>
+</head>
+
+<body>
+    <header>
+        <h1 style="text-align: center;">Party Planner</h1>
+    </header>
+    <hr style="border-top: 2px solid black;">
+    <main>
+        <div>
+            <ul class="partyList">
+                <p><strong> Below is the list of all your parties</strong></p>
+            </ul>
+        </div>
+        <hr style="border-top: 2px solid black;">
+        <div>
+            <h3>To add more parties to the list, fill the form below and submit.</h3>
+            <form class="partyForm">
+                <p>
+                    <label for="eventName">Event Name: </label><br>
+                    <input type="text" name="eventName" />
+                </p>
+                <p>
+                    <label for="eventDescription">Event Description: </label><br>
+                    <input type="text" name="eventDescription" />
+                </p>
+                <p>
+                    <label for="eventDate">Event Date: </label><br>
+                    <input type="date" name="eventDate" />
+                </p>
+                <p>
+                    <label for="eventLocation">Event Location: </label><br>
+                    <input type="text" name="eventLocation" />
+                </p>
+                <p><button type="button">Add Event</button></p>
+            </form>
+        </div>
+    </main>
+</body>
+
+</html>
