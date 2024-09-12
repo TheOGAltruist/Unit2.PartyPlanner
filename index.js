@@ -30,7 +30,6 @@ async function renderState() {
                 <strong>Party Description:</strong> ${party.description}<br>
             </p>
             `
-
             partyList.append(newListElement)
         });
     }
@@ -58,6 +57,7 @@ async function addParty(event) {
             throw new Error("Failed to create artist");
         }
 
+        addEvent.reset()
         renderState();
     } catch (error) {
         console.error(error);
